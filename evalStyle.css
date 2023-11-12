@@ -1,0 +1,131 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    background: rgb(212, 219, 38);
+    background: linear-gradient(332deg, rgba(212, 219, 38, 0.9613095238095238) 0%, rgba(191, 241, 48, 1) 50%, rgba(140, 150, 109, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body>div {
+
+    margin: 1rem;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.container>div {
+    margin: 1rem;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    box-shadow: 1px 1px 2px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.candidatDiv {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+
+    background: rgb(175, 179, 81);
+    background: linear-gradient(74deg, rgba(175, 179, 81, 0.9613095238095238) 0%, rgba(71, 145, 121, 1) 51%, rgba(150, 193, 27, 1) 100%);
+    color: white;
+    border: solid 2px black;
+    border-radius: 1rem;
+    width: 50%;
+
+
+
+}
+
+.candidatDiv>div {
+    margin: 0.25rem;
+}
+
+.question {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    background: rgb(117, 119, 84);
+    background: linear-gradient(332deg, rgba(117, 119, 84, 0.9613095238095238) 0%, rgba(7, 7, 8, 1) 50%, rgba(140, 150, 109, 1) 100%);
+    color: white;
+    border: solid 2px black;
+    border-radius: 1rem;
+}
+
+.question>div {
+    border: solid 2px white;
+    border-radius: 1rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+
+}
+
+.image {
+
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image:hover {
+
+    transform: scale(2);
+}
+
+textarea {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border: solid 2px white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+input {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.bouton {
+
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.25rem;
+    cursor: pointer;
+    width: fit-content;
+}

@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.champDeSaisi {
+    padding: 0.5rem;
+    margin: 0.25rem;
+
+}
+
+.containerPrincipal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.containerChampsDeSaisie {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.boutonValidation {
+
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: small;
+
+
+
+}
+
+.boutonEffecer {
+
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    margin: 0.25rem;
+    cursor: pointer;
+
+}
+
+.info {
+    position: absolute;
+    background-color: gray;
+    width: fit-content;
+    visibility: hidden;
+    margin-top: 20%;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.imageClose {
+
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    cursor: pointer
+}
+
+.modifierBouton {
+
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.administration {
+
+    border: 2px solid black;
+    padding: 0.25rem;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.panneauAdministration {
+
+    position: absolute;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: gray;
+    visibility: hidden;
+    margin-left: 20%;
+    margin-top: 40%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.containerAjoutChamp {
+
+
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    flex-wrap: wrap;
+
+}
+
+
+.panneauLog{
+    position: absolute;
+    margin-top:25%;
+    margin-left:50%;
+    display:flex;
+    flex-direction: column;
+    border:3px solid black;
+    border-radius: 1rem;
+
+    
+
+
+
+}
+.panneauLog>input{
+
+    padding:0.25rem;
+    border:3px solid black;
+    border-radius: 1rem;
+
+    
+
+
+
+}
