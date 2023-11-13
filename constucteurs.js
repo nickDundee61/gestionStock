@@ -27,7 +27,10 @@ let collectionCourrante = collectionDeDestination[0]
 let containerPrincipal
 let containerDeSaisie
 let tableEtTete
+const newConstructor = ()=>{
 
+  
+}
 
 const constucteurPrincipal = () => {
 
